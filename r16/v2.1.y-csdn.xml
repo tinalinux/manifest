@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="tina"
+      fetch="https://code.csdn.net/tinalinux" />
+  <default revision="r16-v2.1.y"
+      remote="tina"
+      sync-j="4" />
+
+  <project path="build" name="build" groups="tina" >
+    <copyfile src="top_main.mk" dest="Makefile" />
+    <copyfile src="rules.mk" dest="rules.mk" />
+  </project>
+  <project path="config" name="config" groups="tina" >
+    <copyfile src="top_config.in" dest="Config.in" />
+  </project>
+  <project path="dl" name="dl" groups="tina" />
+  <project path="docs" name="docs" groups="tina" />
+  <project path="lichee/brandy" name="brandy" groups="tina" />
+  <project path="lichee/linux-3.4" name="linux-3-4" groups="tina" />
+  <project path="package" name="package" groups="tina" />
+  <project path="scripts" name="scripts" groups="tina" />
+  <project path="target" name="target" groups="tina" />
+  <project path="toolchain" name="toolchain" groups="tina" />
+  <project path="prebuilt" name="prebuilt" groups="tina" />
+  <project path="tools" name="tools" groups="tina" />
+</manifest>
