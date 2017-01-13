@@ -3,7 +3,7 @@
 
   <remote  name="tina"
       fetch="https://github.com/tinalinux" />
-  <default revision="r16-v2.1.y"
+  <default revision="r58-v2.y"
       remote="tina"
       sync-j="4" />
 
