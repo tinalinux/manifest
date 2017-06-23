@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="tina"
-      fetch="https://github.com/tinalinux" />
-  <default revision="r40-v1.y"
+      fetch="https://code.csdn.net/tinalinux" />
+  <default revision="r18-v0.9"
            remote="tina"
            sync-j="4" />
 
@@ -17,7 +17,7 @@
   <project path="dl" name="dl" groups="tina" />
   <project path="docs" name="docs" groups="tina" />
   <project path="lichee/brandy" name="brandy" groups="tina" />
-  <project path="lichee/linux-3.10" name="linux-3.10" groups="tina" />
+  <project path="lichee/linux-3.10" name="linux-3-10" groups="tina" />
   <project path="package" name="package" groups="tina" />
   <project path="scripts" name="scripts" groups="tina" />
   <project path="target" name="target" groups="tina" />
